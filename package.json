@@ -1,0 +1,25 @@
+{
+  "name": "apiautomation",
+  "version": "1.0.0",
+  "description": "API Automation Testing for ASAP",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watchAll --detectOpenHandles  --config=jestconfig.json"
+  },
+  "author": "Thu Hnin Aye Kyaw Soe",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/preset-env": "^7.21.5",
+    "@babel/preset-typescript": "^7.21.5",
+    "jest": "^29.5.0",
+    "jest-html-reporter": "^3.9.0",
+    "supertest": "^6.3.3",
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "@babel/plugin-transform-runtime": "^7.21.4",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "zod": "^3.21.4"
+  }
+}

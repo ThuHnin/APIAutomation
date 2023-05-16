@@ -1,0 +1,9 @@
+{
+    "verbose": true,
+    "collectCoverage": true,
+    "coverageReporters": [
+      "lcov"
+    ],
+    "coverageDirectory" : "./output/coverage/reports/",
+    "reporters" : ["default","./node_modules/jest-html-reporter"]
+}
